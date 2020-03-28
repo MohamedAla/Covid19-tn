@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+@import "login.css";
+@import "register.css";
+@import "loading.css";
+
+* {
+    font-family: 'Cairo', sans-serif;
+}
+body , html{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    height: 100%;
+}
+
+#logo {    
+    background-image: url(https://cdn.countryflags.com/thumbs/tunisia/flag-3d-round-250.png);
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 20px;
+    right: 20px;
+    background-size: cover;
+    cursor: pointer;
+}
